@@ -272,7 +272,7 @@ view = ship[[
 
 
 def _highlight(r):
-    color = "background-color: #ffe0e0" if r["Flagged"] else ""
+    color = "background-color: #FFD98A" if r["Flagged"] else ""
     return [color] * len(r)
 
 
