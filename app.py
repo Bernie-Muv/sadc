@@ -309,7 +309,7 @@ with colA:
 
         by_dem = fm_bale.groupby("Collector_Demographic")["Payout_ZAR"].sum()
         st.markdown("**Injection by demographic (ZAR)**")
-        st.bar_chart(by_dem, horizontal=True)
+        st.bar_chart(by_dem, horizontal="#E4002B")
 
         st.dataframe(
             fm_bale[["Buy_Back_Centre", "Collector_Demographic", "Weight_kg", "Payout_ZAR"]]
